@@ -1,3 +1,5 @@
+<!-- EJS (Embedded JavaScript) is a simple templating language that lets you generate HTML markup with plain JavaScript. It is often used in Node.js applications to render(give) dynamic content on the server side before sending it to the client. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +9,13 @@
 </head>
 <body>
     <h1>This is a folder.</h1>
-    <h2><%- name %></h2>
+    <h2><%= name %></h2>
     <h3>Contact</h3>
     
         <form action="backend.php">
             <label for="name">Name</label>
           <div>
-             <input type="text" name:"" id="name" value="<%- name %>">
+             <input type="text" name:"" id="name" value="<%= name %>">
           </div>
 
          
