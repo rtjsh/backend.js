@@ -14,6 +14,10 @@ framework --> laravel, express, angular, vuejs
 
 environment --> nodejs
 
+Library vs framework
+The framework calls the developer's code, whereas in a library, the developer calls the library's code.
+For example, a library might be designed to handle user input, interact with a database, or perform data parsing. In contrast, frameworks are designed to provide a wide range of functionality and are often used to build complete applications.
+
 Almost every nodejs project uses express js
 
 versioning of packages are in semantic(semVer)
